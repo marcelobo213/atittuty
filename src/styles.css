@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,100&display=swap');
+
+:root {
+    --color-primary:green;
+}
+
+.copy-color {
+    color: var(--color-primary);
+}
+body {
+    margin: 0;
+    padding-top: 7.75rem;
+}
+
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.titulo {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+ color: #fff;
+ 
+}
+
+.containe-titulo {
+    display: grid;
+    grid-template-columns: 1fr 8fr ;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    padding: 0 1rem;
+}
+
+.containe-titulo h1  {
+    margin-left: 20px;
+}
+
+.link-titulo {
+   justify-self: end;
+}
+
+.link-titulo li {
+    font-size: 0.900rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+}
+
+.link-titulo a {
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-titulo a:hover {
+    color: var(--color-primary);
+}
